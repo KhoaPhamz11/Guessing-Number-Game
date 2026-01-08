@@ -175,7 +175,8 @@ int main() {
     switch (opt){
       case 1:
         printLine();
-        cout << "Here is the game tutorial, please read it carefully!\n";
+        cout << "********************************************************\n";
+        cout << "HERE IS THE GAME TUTORIAL, PLEASE READ IT CAREFULLY!\n";
         printTutorials();
         printLine();
         cout << "Are you ready? (y/n): "; cin >> ready;
